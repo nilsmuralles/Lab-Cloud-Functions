@@ -22,12 +22,3 @@ gcloud functions deploy maps-query \
 ```bash
 curl "https://<REGION>-<PROJECT_ID>.cloudfunctions.net/maps-query?place=Mercado+Central+Guatemala"
 ```
-
-## Evidencia de funcionamiento
-
-### Local
-![Prueba local 1](local/prueba-mercado.png)
-![Prueba local 2](local/prueba-uvg.png)
-
-### Deploy
-![Prueba deploy](deploy/prueba-deploy.png)
